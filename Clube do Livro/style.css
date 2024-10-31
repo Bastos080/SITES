@@ -1,0 +1,87 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #648769;
+    font-size: 50px;
+
+    
+}
+
+.header-section {
+    background-color: #4A7A59; 
+    color: #fff;
+    padding: 40px;
+    position: relative;
+}
+
+.header-section h1 {
+    font-size: 220px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.livro-image {
+    position: absolute;
+    top: 1px;
+    right: 20px;
+    width: 600px;
+    height: 620px;
+}
+
+.intro-section {
+    margin: 30px 0;
+    font-size:100px;
+    padding: 100px;
+}
+
+.intro-section .highlight {
+    color: #4A7A59; 
+    font-weight: bold;
+    padding: 30px;
+    padding: 20px;
+}
+
+.info-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: left;
+    padding: 20px;
+}
+
+.info-item {
+    width: 30%;
+}
+
+.info-item img {
+    width: 300px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+.info-item h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.info-item p {
+    font-size: 0.9em;
+    color: #666;
+    padding: 10px;
+}
+
+.cta-section {
+    background-color: #648769;
+    color: #fff;
+    padding: 30px;
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+}
